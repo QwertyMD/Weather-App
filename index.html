@@ -1,12 +1,21 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather</title>
+    <title>Weather App</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
+    <h1 class="heading">☁️ Weather ☁️</h1>
+    <div class="weather-container">
+      <input class="input-field" type="text" placeholder="Enter City..." />
+      <div class="weather-content"></div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
